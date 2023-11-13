@@ -1,0 +1,19 @@
+{
+    "name": "php/test",
+    "description": "php-test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Php\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yugma Dewangga",
+            "email": "yugmade@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-json": "*"
+    }
+}
